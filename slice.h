@@ -3,9 +3,7 @@
 #include<iostream>
 #include<vector>
 
-/**
- * @brief An implementation of dynamic sized, console based space seperated list input with inbuilt console output and input operator overloads, inspired from Python's List.
- */
+/// @brief An implementation of dynamic sized, console based space seperated list input with inbuilt console output and input operator overloads, inspired from Python's List.
 template <typename T>
 class Slice {
     private:

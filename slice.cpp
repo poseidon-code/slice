@@ -60,7 +60,7 @@ istream &operator>>(istream &is, Slice<T> &s) {
         if(ss.peek() == ' ') ss.ignore();
     }
 
-    // initialize Slice class with temorary vector ('=' operator is overloaded)
+    // initialize Slice class with temporary vector ('=' operator is overloaded)
     s=slice;
 
     return is;
